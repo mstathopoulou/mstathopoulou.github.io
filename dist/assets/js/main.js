@@ -99,7 +99,7 @@ $(document).ready(function () {
         if (distance <= document.documentElement.clientHeight - 100) {
             
             var percentages_elem = document.getElementsByClassName("percentage");
-            var percentages = [80, 85, 85, 90, 80, 50, 70, 80, 80, 60, 70, 80, 80, 90, 60, 70];
+            var percentages = [80, 85, 85, 90, 80, 50, 70, 80, 80, 80, 70, 80, 80, 90, 60, 70];
             var bars = document.getElementsByClassName("skill-level");
 
             Array.prototype.forEach.call(bars, function (elem, i) {

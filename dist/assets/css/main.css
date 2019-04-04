@@ -307,8 +307,8 @@ section:nth-of-type(n+2) .left h2 {
   font-size: 1.3rem;
   margin-bottom: 20px; }
 
-#skills .skills:nth-child(2) {
-  margin-bottom: 50px; }
+#skills .title:nth-child(n+2) {
+  margin-top: 50px; }
 
 #skills .item {
   margin-bottom: 5px; }
@@ -338,6 +338,9 @@ section:nth-of-type(n+2) .left h2 {
     border-radius: 50px;
     background-color: #F1B200; }
 
+#skills .skills:last-child .item:not(:last-child) {
+  margin-bottom: 10px; }
+
 #skills .left h3 {
   color: #8E8E8E;
   font-style: italic;
@@ -364,6 +367,9 @@ section:nth-of-type(n+2) .left h2 {
   top: 20px;
   left: 0;
   text-align: center; }
+
+#projects a {
+  text-decoration: none; }
 
 #projects span {
   display: block;
@@ -423,6 +429,14 @@ section:nth-of-type(n+2) .left h2 {
   height: 40px;
   position: absolute;
   top: 16px;
+  left: 0;
+  text-align: center; }
+
+#interests img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 12px;
   left: 0;
   text-align: center; }
 

@@ -375,6 +375,11 @@ section:nth-of-type(n+2) .left h2 {
   display: block;
   margin-left: 20px; }
 
+#projects .link {
+  font-size: 0.8rem;
+  height: 0px;
+  position: unset; }
+
 #projects .title {
   font-size: 1rem;
   margin-bottom: 10px;

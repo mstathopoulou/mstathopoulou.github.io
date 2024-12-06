@@ -1,28 +1,27 @@
 @media only screen and (min-width:480px){.wrapper{padding:60px 0;margin:0 30px}.navbar{padding:0 20px}
 #cover .right .greetings{font-size:1.3rem}#cover .right .name,#cover .right .surname{font-size:3rem}
 #cover .right .subtitle{font-size:1.5rem}#skills .title{margin-bottom:30px}#skills .item-set{font-size:.9rem}
-#skills .skills{display:grid;grid-template-columns:1fr 1fr;-webkit-column-gap:20px;column-gap:20px}
+#skills .skills{display:grid;grid-template-columns:1fr 1fr;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
 }@media only screen and (min-width:550px){.wrapper{padding:60px 0;margin:0 40px}.navbar{padding:0 30px}
 #education .right .wrapper{display:grid;grid-template-columns:1fr 5fr;grid-template-rows:3fr 1fr;grid-column-gap:60px;grid-row-gap:30px;padding:0;margin-top:60px;margin-bottom:60px;position:relative}
-#education .right .wrapper::after{content:'';position:absolute;width:2px;background-color:#8e8e8e;top:10px;bottom:calc(25% - 15px);left:calc(16.7% + 22.5px);margin-left:-1px;z-index:0}
-#education .right .wrapper .institution{margin:0}#education .date{margin:0}#education .date:nth-of-type(1)::after{content:'';position:absolute;width:10px;height:10px;left:calc(16.7% + 17.5px);background-color:#f1b200;top:0;border-radius:50%;z-index:1}
-#education .date:nth-child(3)::after{content:'';position:absolute;width:10px;height:10px;left:calc(16.7% + 17.5px);background-color:#f1b200;bottom:calc(25% - 20px);border-radius:50%;z-index:1}
+#education .right .wrapper::after{content:"";position:absolute;width:2px;background-color:#8e8e8e;top:10px;bottom:calc(25% - 15px);left:calc(16.7% + 22.5px);margin-left:-1px;z-index:0}
+#education .right .wrapper .institution{margin:0}#education .date{margin:0}#education .date:nth-of-type(1)::after{content:"";position:absolute;width:10px;height:10px;left:calc(16.7% + 17.5px);background-color:#f1b200;top:0;border-radius:50%;z-index:1}
+#education .date:nth-child(3)::after{content:"";position:absolute;width:10px;height:10px;left:calc(16.7% + 17.5px);background-color:#f1b200;bottom:calc(25% - 20px);border-radius:50%;z-index:1}
 #workshops .right .wrapper{display:grid;grid-template-columns:1fr 7fr;grid-template-rows:1fr 1fr;grid-column-gap:60px;grid-row-gap:30px;padding:0;margin-top:60px;margin-bottom:60px;position:relative}
-#workshops .right .wrapper::after{content:'';position:absolute;width:2px;background-color:#8e8e8e;top:10px;bottom:calc(50% - 16px);left:calc(12.5% + 16px);margin-left:-1px;z-index:0}
-#workshops .date{margin:0}#workshops .date:nth-of-type(1)::after{content:'';position:absolute;width:10px;height:10px;left:calc(12.5% + 11px);background-color:#f1b200;top:0;border-radius:50%;z-index:1}
-#workshops .date:nth-child(3)::after{content:'';position:absolute;width:10px;height:10px;left:calc(12.5% + 11px);background-color:#f1b200;bottom:calc(50% - 26px);border-radius:50%;z-index:1}
-#workshops .date:nth-child(5)::after{content:'';position:absolute;width:10px;height:10px;left:calc(12.5% + 11px);background-color:#f1b200;bottom:calc(25% - 15px);border-radius:50%;z-index:1}
-}@media only screen and (min-width:650px){#skills .skills{-webkit-column-gap:40px;column-gap:40px}
+#workshops .right .wrapper::after{content:"";position:absolute;width:2px;background-color:#8e8e8e;top:10px;bottom:calc(50% - 16px);left:calc(12.5% + 16px);margin-left:-1px;z-index:0}
+#workshops .date{margin:0}#workshops .date:nth-of-type(1)::after{content:"";position:absolute;width:10px;height:10px;left:calc(12.5% + 11px);background-color:#f1b200;top:0;border-radius:50%;z-index:1}
+#workshops .date:nth-child(3)::after{content:"";position:absolute;width:10px;height:10px;left:calc(12.5% + 11px);background-color:#f1b200;bottom:calc(50% - 26px);border-radius:50%;z-index:1}
+#workshops .date:nth-child(5)::after{content:"";position:absolute;width:10px;height:10px;left:calc(12.5% + 11px);background-color:#f1b200;bottom:calc(25% - 15px);border-radius:50%;z-index:1}
+}@media only screen and (min-width:650px){#skills .skills{-webkit-column-gap:40px;-moz-column-gap:40px;column-gap:40px}
 #projects .projects{grid-template-columns:1fr 1fr}#projects i{font-size:1.2rem;top:17px}
 #projects .title{font-size:.9rem}#projects .project{font-size:.8rem}#education .right .wrapper::after{left:calc(16.7% + 8px)}
 #education .date:nth-of-type(odd)::after{left:calc(16.7% + 3px)}#workshops .right .wrapper::after{left:calc(12.5% + 5px)}
-#workshops .date{margin:0}#workshops .date:nth-of-type(odd)::after{left:calc(12.5%)}
-}@media only screen and (min-width:768px){#cover .right .greetings{font-size:1.5rem}
+#workshops .date{margin:0}#workshops .date:nth-of-type(odd)::after{left:12.5%}}@media only screen and (min-width:768px){#cover .right .greetings{font-size:1.5rem}
 #cover .right .name,#cover .right .surname{font-size:3.2rem}#cover .right .subtitle{font-size:1.7rem}
 #cover .right .personal-info ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-#cover .right .personal-info ul li{font-size:.8rem;margin-bottom:0 !important}#skills .skills{-webkit-column-gap:60px;column-gap:60px}
-#projects .projects{grid-template-columns:1fr 1fr;-webkit-column-gap:20px;column-gap:20px}
-#education .right .wrapper::after{left:calc(16.7%)}#education .date:nth-of-type(odd)::after{left:calc(16.7% - 5px)}
+#cover .right .personal-info ul li{font-size:.8rem;margin-bottom:0 !important}#skills .skills{-webkit-column-gap:60px;-moz-column-gap:60px;column-gap:60px}
+#projects .projects{grid-template-columns:1fr 1fr;-webkit-column-gap:20px;-moz-column-gap:20px;column-gap:20px}
+#education .right .wrapper::after{left:16.7%}#education .date:nth-of-type(odd)::after{left:calc(16.7% - 5px)}
 #workshops .right .wrapper::after{left:calc(12.5% - 5px)}#workshops .date:nth-of-type(odd)::after{left:calc(12.5% - 10px)}
 }@media only screen and (min-width:900px){.wrapper{margin:0 60px}#cover .right .greetings{font-size:1.7rem}
 #cover .right .name,#cover .right .surname{font-size:3.6rem}#cover .right .subtitle{font-size:1.9rem}
@@ -47,7 +46,7 @@ section:nth-child(n+2) .left .wrapper h2{padding-top:20px;text-align:end}.sidena
 #projects i{font-size:1.2rem;top:3px}#projects .title{font-size:.9rem}#projects .project{font-size:.8rem}
 #footer .right{text-align:left}#education .right .wrapper::after{left:calc(16.7% + 10px)}
 #education .date:nth-of-type(odd)::after{left:calc(16.7% + 5px)}#workshops .right .wrapper::after{left:calc(12.5% + 5px)}
-#workshops .date:nth-of-type(odd)::after{left:calc(12.5%)}}@media only screen and (min-width:1250px){.left .wrapper{margin:0 50px 0 100px}
+#workshops .date:nth-of-type(odd)::after{left:12.5%}}@media only screen and (min-width:1250px){.left .wrapper{margin:0 50px 0 100px}
 .right .wrapper{margin:0 150px 0 50px}}@media only screen and (min-width:1440px) and (min-height:600px){.left .wrapper{margin:0 60px 0 100px}
 .right .wrapper{margin:0 200px 0 60px}#cover .right .personal-info ul li{font-size:.9rem}
 #education .right .wrapper::after{left:calc(16.7% - 5px)}#education .date:nth-of-type(odd)::after{left:calc(16.7% - 10px)}

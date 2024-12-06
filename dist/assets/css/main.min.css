@@ -1,12 +1,12 @@
 root{scroll-behavior:smooth}*,*:before,*:after{-webkit-box-sizing:border-box;box-sizing:border-box}
 html,body{width:100%;height:100%;margin:0;padding:0}html{scroll-behavior:smooth;min-width:360px}
 body{font-family:"Poppins",sans-serif;font-size:16px}#main-body{display:none}
-.resize{height:60px !important;background-color:#fafbfb !important}.resize::after{content:'';width:100%;position:absolute;left:0;bottom:0;height:3px;background:-webkit-gradient(linear,left top,left bottom,from(#fafbfb),to(#e7e7e7));background:linear-gradient(#fafbfb,#e7e7e7)}
+.resize{height:60px !important;background-color:#fafbfb !important}.resize::after{content:"";width:100%;position:absolute;left:0;bottom:0;height:3px;background:-webkit-gradient(linear,left top,left bottom,from(#fafbfb),to(#e7e7e7));background:linear-gradient(#fafbfb,#e7e7e7)}
 .navbar{width:100%;height:70px;background-color:transparent;position:fixed;top:0;z-index:2;padding:0 10px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-transition:.2s;transition:.2s}
 .navbar .logo{font-family:"Satisfy",cursive;font-size:2rem;line-height:100%;font-style:italic}
 .navbar .logo a{text-decoration:none;color:#5f5f5f}.navbar .menu{height:24px}.navbar .menu button{outline:0;-moz-outline:0;border:0;z-index:3;position:relative;padding:0}
 .navbar .menu button:hover{cursor:pointer}.sidenav-open{width:200px !important}.sidenav{height:100%;width:0;position:fixed;z-index:1;top:0;right:0;background-color:#fbfbfb;padding-top:65px;-webkit-transition:all .6s;transition:all .6s;text-overflow:clip;white-space:nowrap;overflow:hidden}
-.sidenav::before{content:'';width:2px;height:100%;position:absolute;top:0;background:-webkit-gradient(linear,left top,right top,from(#e7e7e7),to(#fbfbfb));background:linear-gradient(to right,#e7e7e7,#fbfbfb)}
+.sidenav::before{content:"";width:2px;height:100%;position:absolute;top:0;background:-webkit-gradient(linear,left top,right top,from(#e7e7e7),to(#fbfbfb));background:linear-gradient(to right,#e7e7e7,#fbfbfb)}
 .sidenav a{padding:5px 0 20px 30px;text-decoration:none;font-size:1rem;color:#8e8e8e;display:block;-webkit-transition:.5s;transition:.5s}
 .sidenav a:hover{color:#f1b200}.sidenav button{margin:0 0 20px 30px;padding:0;display:block;-webkit-transition:.5s;transition:.5s;background-color:transparent;border:0;color:#8e8e8e;overflow:visible}
 .sidenav button:hover{color:#f1b200;cursor:pointer}.sidenav button:nth-of-type(1){border-top:1px solid #f1b200;padding-top:15px}
@@ -34,7 +34,14 @@ section:nth-of-type(n+2) .left h2{font-size:1.5rem;margin:15px 0 2px 0;color:#5f
 #education h3,#education h4,#education h5{letter-spacing:1px;margin:0;padding:0}#education h3{padding:0;margin:0;font-size:1.1rem;line-height:1.3rem;font-weight:lighter}
 #education h4{font-size:1rem;line-height:1.3rem;font-weight:100;color:#5f5f5f;margin-top:20px;margin-bottom:5px}
 #education h5{font-weight:100;font-size:.8rem;line-height:1.3rem}#education h4:nth-of-type(1){font-size:.9rem;margin-top:10px;margin-bottom:25px}
-#education h4:nth-of-type(1) i{letter-spacing:1px}#skills .right{color:#8e8e8e}#skills .title{color:#5f5f5f;font-size:1.3rem;margin-bottom:20px}
+#education h4:nth-of-type(1) i{letter-spacing:1px}#work_experience{color:#8e8e8e}
+#work_experience .date{color:#8e8e8e;font-style:italic;margin-bottom:20px;margin-top:5px}
+#work_experience .project_details{margin-bottom:60px}#work_experience .project_details h2,#work_experience .project_details h3,#work_experience .project_details h4,#work_experience .project_details h5{letter-spacing:1px;margin:0;padding:0}
+#work_experience .project_details h2{color:#5f5f5f;padding:0;margin:0;font-size:1.1rem;font-weight:bolder}
+#work_experience .project_details h3{padding:0;margin:0;font-size:1.1rem;line-height:1.3rem;font-weight:lighter}
+#work_experience .project_details h4{font-size:1rem;font-weight:200;margin-bottom:5px}
+#work_experience .project_details h5{font-weight:200;font-size:1rem;margin-bottom:10px;color:#5f5f5f}
+#skills .right{color:#8e8e8e}#skills .title{color:#5f5f5f;font-size:1.3rem;margin-bottom:20px}
 #skills .title:nth-child(n+2){margin-top:50px}#skills .item{margin-bottom:5px}#skills .item-set{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 #skills .percentage{color:#f1b200}#skills .bar{margin:15px 0;height:5px;position:relative;background:#ddd;border-radius:50px}
 #skills .bar span{width:1%;height:100%;display:block;border-radius:50px;background-color:#f1b200}
